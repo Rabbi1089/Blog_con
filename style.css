@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-image: url('cow.jpg');
+    background-size: cover;
+    background-position:bottom center;
+    height: 100vh;
+}
+
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 40px;
+    letter-spacing: 10px;
+}
+.article{
+    /*
+    margin-left: auto;
+    margin-right : auto;
+    margin top buttom 60px;
+    box model layout
+ */
+ width : 80%;
+ border-width: 15px;
+ border-color: yellow;
+ border-style: groove;
+ margin: 60px auto;
+ padding: 60px;
+ background-color: aqua;
+}
+
+.article h1{
+    border-style: solid;
+    text-align: center;
+    font-size: 48px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-color: blue;
+    
+}
+
+.article p{
+    font-size: 20px;
+}
+
+.article p .imp{
+    font-size: 1.5em;
+}
